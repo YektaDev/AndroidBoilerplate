@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="Theme.App.NightAdjusted" parent="android:Theme.Material.Light.NoActionBar">
+    <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+  </style>
+  <style name="Theme.App" parent="Theme.App.NightAdjusted">
+    <item name="android:statusBarColor">#4d566422</item>
+  </style>
+
+  <style name="Theme.NightAdjusted.Splash" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">#fff3fcf5</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+  </style>
+  <style name="Theme.App.Splash" parent="Theme.NightAdjusted.Splash">
+    <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+    <item name="postSplashScreenTheme">@style/Theme.App</item>
+  </style>
+</resources>
