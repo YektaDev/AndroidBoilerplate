@@ -16,6 +16,7 @@
 + Simplified release and versioning
 + Embedded `Vazirmatn` variable font by default (it uses `Roboto` for Latin, alongside offering a
   polished and standard look and feel for Persian/Arabic glyphs)
++ Opinionated code formatting rules, most notably 2-space indentations
 + Comes with:
   + Compose Runtime + Compose UI + Material 3
   + Kotlin Serialization + JSON Serialization
