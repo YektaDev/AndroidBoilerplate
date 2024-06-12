@@ -102,6 +102,8 @@ dependencies {
   implementation(libs.ktor.client.okhttp)
   implementation(libs.coil)
   implementation(libs.coil.compose)
+  implementation(libs.decompose)
+  implementation(libs.decompose.compose)
 
   testImplementation(libs.junit)
   testImplementation(libs.leakcanary)
