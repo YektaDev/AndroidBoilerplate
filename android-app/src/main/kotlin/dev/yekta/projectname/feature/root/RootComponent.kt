@@ -4,6 +4,7 @@ import com.arkivanov.decompose.router.stack.ChildStack
 import com.arkivanov.decompose.router.stack.StackNavigation
 import com.arkivanov.decompose.router.stack.childStack
 import com.arkivanov.decompose.router.stack.pop
+import com.arkivanov.decompose.router.stack.pushNew
 import com.arkivanov.decompose.value.Value
 import dev.yekta.projectname.app.AppContext
 import dev.yekta.projectname.feature.about.AboutComponent
@@ -51,6 +52,7 @@ private class RootComponentImp(
     is Home -> HomeChild(
       homeComponent(
         context = context,
+        onAboutNavigation = { navigation.pushNew(About) },
       ),
     )
 
