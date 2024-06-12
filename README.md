@@ -23,6 +23,7 @@
   + Ktor
   + Coil
   + LeakCanary
+  + **Decompose (Very SOON!)**
 
 ## Setup
 
