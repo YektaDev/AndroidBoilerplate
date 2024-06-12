@@ -54,7 +54,7 @@ RELEASE_KEY_ALIAS=key_alias
 RELEASE_KEY_PWD=key_pass
 ```
 
-### 3. 🎨 Theming
+### 3. 🎨 Theming (Optional)
 
 Head over to the
 [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/) and export
