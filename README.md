@@ -1,4 +1,4 @@
-# Personal Opinionated Android Project Boilerplate - 2024
+# ✴️ An Opinionated Android Project Boilerplate - 2024
 
 ## Features
 
@@ -27,13 +27,13 @@
 
 ## Setup
 
-### 1. Project Properties
+### 1. 📝 Project Properties
 
 1. Search and replace `projectname` and `PROJECT_NAME` throughout the project.
-2. From source directories, rename `dev.yekta.projectname` to the package name.
-3. Configure xml files withing `res` directory (including icon & colors).
+2. From source directories, rename `dev/yekta/projectname` to the package name.
+3. Configure XML files within `res` directory (including icon & colors).
 
-### 2. Release Config
+### 2. 🔧 Release Config
 
 Append the following lines into the root `local.properties` (create if doesn't exist):
 
@@ -44,10 +44,10 @@ RELEASE_KEY_ALIAS=key_alias
 RELEASE_KEY_PWD=key_pass
 ```
 
-### 3. Theming
+### 3. 🎨 Theming
 
 Head over to the
 [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/) and export
 the desired theme for the app.
 
-### 4. Happy Crafting!
+### 4. 🚀 Happy Crafting!

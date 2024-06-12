@@ -1,7 +1,3 @@
-/*
- * Unpublished Copyright 2024 Ali Khaleqi Yekta, All Rights Reserved.
- */
-
 package dev.yekta.projectname.ui.theme
 
 import androidx.compose.material3.Typography
