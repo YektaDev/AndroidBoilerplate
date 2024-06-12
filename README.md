@@ -2,26 +2,24 @@
 
 ## Features
 
-+ Internet permission by default
-+ Copyright comments by default
-+ Version catalog by default
-+ Complete Git config
-+ Complete Gradle tuning
 + The most up-to-date Activity setup (+ splashscreen)
 + Up-to-date dependencies + Kotlin 2.0
-+ Opinionated `.editorconfig`
 + KMP-ready default dependencies and configurations _(except the module structure, left to the user
   to migrate when needed)_
 + Aggressive R8 configured
 + Simplified release and versioning
 + Embedded `Vazirmatn` variable font by default (it uses `Roboto` for Latin, alongside offering a
   polished and standard look and feel for Persian/Arabic glyphs)
-+ Opinionated code formatting rules, most notably 2-space indentations
++ Opinionated code formatting rules (`.editorconfig`), most notably 2-space indentations
++ Internet permission by default
++ Version catalog by default
++ Git configured
++ Gradle "tuned"
 + Comes with:
   + Compose Runtime + Compose UI + Material 3
   + Kotlin Serialization + JSON Serialization
   + Kotlin Coroutines
-  + Immutable Collections (specially useful in conjunction with Compose)
+  + Kotlin Immutable Collections (specially useful in conjunction with Compose)
   + Ktor
   + Coil
   + LeakCanary
