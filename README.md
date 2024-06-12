@@ -29,7 +29,8 @@
   + Kotlin Serialization + JSON Serialization
   + Kotlin Coroutines
   + Kotlin Immutable Collections (specially useful in conjunction with Compose)
-  + Ktor
+  + Kotlin Datetime
+  + Ktor (OKHttp Engine)
   + Coil
   + Decompose
   + LeakCanary
