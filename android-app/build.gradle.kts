@@ -98,6 +98,7 @@ dependencies {
   implementation(libs.kotlinx.coroutines.core)
   implementation(libs.kotlinx.serialization.json)
   implementation(libs.kotlinx.collections.immutable)
+  implementation(libs.kotlinx.datetime)
   implementation(libs.ktor.client.core)
   implementation(libs.ktor.client.okhttp)
   implementation(libs.coil)
