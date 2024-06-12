@@ -15,6 +15,7 @@
 + Version catalog by default
 + Git configured
 + Gradle "tuned"
++ AS/IDEA minor config enhancements
 + Decompose for navigation
   + Custom `AppContext` by default
   + Predictive back gesture enabled by default

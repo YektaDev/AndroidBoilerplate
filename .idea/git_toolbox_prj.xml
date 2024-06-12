@@ -6,7 +6,28 @@
         <option name="enabled" value="true" />
       </BoolValueOverride>
     </option>
+    <option name="commitMessageValidationConfigOverride">
+      <CommitMessageValidationOverride>
+        <option name="enabled" value="true" />
+        <option name="value">
+          <CommitMessageValidationConfig>
+            <option name="regexConfig">
+              <RegexConfig>
+                <option name="expression" value="(?:feat|nice|test|fix|conf|docs)(?:\(.+\))?: [A-Z`].*[^\s#]( #\d+)?" />
+                <option name="testInput" value="fix(UseCase): Timeout cancellation. #880" />
+              </RegexConfig>
+            </option>
+          </CommitMessageValidationConfig>
+        </option>
+      </CommitMessageValidationOverride>
+    </option>
     <option name="commitMessageValidationEnabledOverride">
+      <BoolValueOverride>
+        <option name="enabled" value="true" />
+        <option name="value" value="true" />
+      </BoolValueOverride>
+    </option>
+    <option name="showEditorInlineBlameOverride">
       <BoolValueOverride>
         <option name="enabled" value="true" />
       </BoolValueOverride>

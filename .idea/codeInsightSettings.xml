@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaProjectCodeInsightSettings">
+    <excluded-names>
+      <name>androidx.compose.material.*</name>
+      <name>com.ibm.icu.impl.number.Modifier</name>
+      <name>com.sun.*</name>
+      <name>java.*.Modifier</name>
+      <name>javax.*.Modifier</name>
+      <name>jdk.*.Modifier</name>
+      <name>kotlin.coroutines.jvm.internal.*</name>
+      <name>kotlinx.coroutines.*.internal.*</name>
+      <name>kotlinx.coroutines.flow.internal.*</name>
+      <name>sun.jvm.hotspot.oops.CellTypeState.value</name>
+    </excluded-names>
+  </component>
+</project>
