@@ -70,11 +70,7 @@ android {
   buildFeatures.compose = true
   composeOptions.kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
 
-  testOptions {
-    unitTests.all {
-      it.useJUnitPlatform()
-    }
-  }
+  testOptions.unitTests.all { it.useJUnitPlatform() }
 
   packaging.resources.excludes.addAll(
     listOf(
@@ -99,8 +95,9 @@ dependencies {
   implementation(libs.androidx.ui.graphics)
   implementation(libs.androidx.ui.tooling.preview)
   implementation(libs.androidx.material3)
-  implementation(libs.kotlinx.serialization.json)
   implementation(libs.kotlinx.coroutines.core)
+  implementation(libs.kotlinx.serialization.json)
+  implementation(libs.kotlinx.collections.immutable)
   implementation(libs.ktor.client.core)
   implementation(libs.ktor.client.okhttp)
   implementation(libs.coil)
