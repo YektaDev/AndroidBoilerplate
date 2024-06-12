@@ -12,11 +12,18 @@
 + Opinionated `.editorconfig`
 + KMP-ready default dependencies and configurations _(except the module structure, left to the user
   to migrate when needed)_
-+ Comes with: Compose, Kotlin Serialization, Kotlin Coroutines, Ktor, Coil, LeakCanary
 + Aggressive R8 configured
 + Simplified release and versioning
 + Embedded `Vazirmatn` variable font by default (it uses `Roboto` for Latin, alongside offering a
   polished and standard look and feel for Persian/Arabic glyphs)
++ Comes with:
+  + Compose
+  + Kotlin Serialization + JSON Serialization
+  + Kotlin Coroutines
+  + Immutable Collections (specially useful in conjunction with Compose)
+  + Ktor
+  + Coil
+  + LeakCanary
 
 ## Setup
 
