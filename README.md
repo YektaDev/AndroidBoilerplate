@@ -15,6 +15,15 @@
 + Version catalog by default
 + Git configured
 + Gradle "tuned"
++ Decompose for navigation
+  + Custom `AppContext` by default
+  + Predictive back gesture enabled by default
+  + Default component tree:
+    ```text
+            RootComponent
+             /         \
+    HomeComponent     AboutComponent
+    ```
 + Comes with:
   + Compose Runtime + Compose UI + Material 3
   + Kotlin Serialization + JSON Serialization
@@ -22,8 +31,8 @@
   + Kotlin Immutable Collections (specially useful in conjunction with Compose)
   + Ktor
   + Coil
+  + Decompose
   + LeakCanary
-  + **Decompose (Very SOON!)**
 
 ## Setup
 
@@ -51,3 +60,6 @@ Head over to the
 the desired theme for the app.
 
 ### 4. 🚀 Happy Crafting!
+
+_Note: If you don't plan to use Decompose and just want a minimal boilerplate, you may use the repo
+before the `34689c45` commit._
