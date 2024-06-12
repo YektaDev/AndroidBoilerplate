@@ -70,8 +70,6 @@ android {
   buildFeatures.compose = true
   composeOptions.kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
 
-  testOptions.unitTests.all { it.useJUnitPlatform() }
-
   packaging.resources.excludes.addAll(
     listOf(
       "META-INF/AL2.0", "META-INF/LGPL2.1",
